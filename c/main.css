@@ -1,0 +1,36 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFBD5;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h1 {
+    background-color: #390037;
+    padding: 2rem;
+    margin: 0px;
+    
+    color: #FFFBD5;
+    font-size: 3rem;
+}
+
+.spacer {
+    padding: 0.75rem;
+    background-color: purple;
+    margin-bottom: 2rem;
+}
+
+.controls {
+    margin-bottom: 2rem;
+}
+
+.foot {
+    margin-top: 3rem;
+    padding: 25px;
+    background-color: #390037;
+}
