@@ -1,3 +1,5 @@
+import { cueTimer } from "./modules/cuepoints.js";
+
 document.addEventListener("DOMContentLoaded", init)
 var myCues;
 function init() {

@@ -39,3 +39,4 @@ const CueTimer = () => {
 	
 }
 
+export let cueTimer = CueTimer();
