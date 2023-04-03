@@ -6,10 +6,7 @@ function init() {
     
     myCues = [
         { seconds: 2, callback: func1 },
-        { seconds: 7, callback: func2 },
-        { seconds: 22, callback: func3 },
-        { seconds: 27, callback: func4 },
-        { seconds: 31, callback: func5 }
+        { seconds: 7, callback: func2 }
     ];
 
     cueTimer.setup("vid", myCues);

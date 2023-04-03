@@ -34,3 +34,7 @@ h1 {
     padding: 25px;
     background-color: #390037;
 }
+
+fieldset {
+    margin-top: 1rem;
+}
