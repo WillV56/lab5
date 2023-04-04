@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 5</title>
     <link rel="stylesheet" href="c/main.css">
-    <script src="j/main.js" type="module"></script>
+    <script src="j/modules/cuepoints.js" type="module"></script>
+    <script src="j/main.js"></script>
+   
 </head>
 <body>
     <h1>The First Day I Got My Dog</h1>
@@ -44,7 +46,7 @@
 
         <fieldset>
             <legend>Captions</legend>
-            <select id="text-track">
+            <select id="text-track" onclick="toggleTrack(vid)">
                 <option value="en">English</option>
                 <option value="off">Off</option>
             </select>

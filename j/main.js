@@ -1,4 +1,4 @@
-import { cueTimer } from "./modules/cuepoints.js";
+// import { cueTimer } from "./modules/cuepoints.js";
 
 document.addEventListener("DOMContentLoaded", init)
 var myCues;
@@ -52,6 +52,19 @@ function selectTrack(e, clip, id)
     console.log(theTrack);
     theTrack.selected = true;
     theTrack.mode = 'showing'
+}
+
+function toggleTrack(clip)
+{
+    let track = clip.textTracks[0];
+    if (track.mode == 'hidden'){
+        track.mode = 'showing'
+    } 
+    else {  
+    track.mode = 'hidden';
+    track.selected = false;
+    }
+    
 }
 
 function func1() {
