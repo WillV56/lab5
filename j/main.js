@@ -12,9 +12,6 @@ function init() {
     cueTimer.setup("vid", myCues);
 
     const vid = document.querySelector("#vid");
-
-
-  
 }
 
 function playVideo(clip)
